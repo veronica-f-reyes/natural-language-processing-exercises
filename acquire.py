@@ -23,9 +23,9 @@ def parse_article(article):
 
 def get_blog_articles(urls):
     
-filename = "blogs.csv"
+    filename = "blogs.csv"
 
- if os.path.isfile(filename):
+    if os.path.isfile(filename):
 
        return pd.read_csv(filename)
 
@@ -89,9 +89,9 @@ def parse_news_article(article, category):
 
 def get_news_articles(categories):
 
-filename = "news.csv"
+    filename = "news.csv"
 
- if os.path.isfile(filename):
+    if os.path.isfile(filename):
 
        return pd.read_csv(filename)
 
