@@ -21,7 +21,13 @@ def parse_article(article):
 # Create a function that takes a list of Code Up blog urls and parses the articles from them and creates a dictionary with 
 # title and content of each article
 
-def get_blog_articles(urls):
+def get_blog_articles():
+
+    urls = ['https://codeup.com/data-science/codeups-data-science-career-accelerator-is-here/',
+        'https://codeup.com/data-science/data-science-myths/',
+        'https://codeup.com/data-science/data-science-vs-data-analytics-whats-the-difference/',
+        'https://codeup.com/data-science/10-tips-to-crush-it-at-the-sa-tech-job-fair/',
+        'https://codeup.com/data-science/competitor-bootcamps-are-closing-is-the-model-in-danger/']
     
     filename = "blogs.csv"
 
